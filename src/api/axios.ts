@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/v1",
-  withCredentials: true, // JWT cookies automatically sent
+  baseURL: "https://url-shortener-backend-ngiy.onrender.com/api/v1",
+  withCredentials: true, 
 });
 
 export default API;
